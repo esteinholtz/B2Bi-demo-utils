@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MapStages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MapStages_1.xsd">
+   <MapStage dmlCompatibility="1.5" id="" label="" lastModified="2022-01-20T20:45:38.000Z" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector" xmlVersion="1.0">
+      <Input id="-614841890" label="" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:Input" xmlVersion="1.1">
+         <Properties>
+            <Property name="split" type="String">
+               <SimpleValue>false</SimpleValue>
+            </Property>
+         </Properties>
+      </Input>
+      <Outputs>
+         <Output id="1463682424" label="" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:out" xmlVersion="1.1">
+            <Properties>
+               <Property name="group" type="String">
+                  <SimpleValue>false</SimpleValue>
+               </Property>
+            </Properties>
+         </Output>
+      </Outputs>
+      <DataProcess>
+         <Node id="1" label="" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument" x="271.0" xmlVersion="1.0" y="41.0">
+            <Object id="">
+               <name>MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder</name>
+               <lastModified>2022-01-20T20:45:38.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="2" label="" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:Input" type="Input" x="0.0" xmlVersion="1.0" y="0.0">
+            <Object id="-614841890">
+               <name>MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:Input</name>
+            </Object>
+         </Node>
+         <Node id="3" label="" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.Main_Block1_INH_Detect" type="MapBroker" x="4.0" xmlVersion="1.0" y="65.0">
+            <Object id="-501041624">
+               <name>MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.Main_Block1_INH_Detect</name>
+               <lastModified>2022-01-20T20:45:38.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="4" label="" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument" x="389.0" xmlVersion="1.0" y="257.0">
+            <Object id="">
+               <name>MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder</name>
+               <lastModified>2022-01-20T20:45:38.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="5" label="" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:out" type="Output" x="271.0" xmlVersion="1.0" y="202.0">
+            <Object id="1463682424">
+               <name>MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:out</name>
+            </Object>
+         </Node>
+         <Link from="2" id="6" label="" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:Link1" to="1" xmlVersion="1.0"/>
+         <Link from="1" id="7" label="" name="in1" to="3" xmlVersion="1.0">
+            <Object id="414869808">
+               <name>MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:in1</name>
+            </Object>
+         </Link>
+         <Link from="3" id="8" label="" mapBrokerOutput="out" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:out" to="4" xmlVersion="1.0">
+            <Object id="1511483763">
+               <name>MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:out</name>
+            </Object>
+         </Link>
+         <Link from="4" id="9" label="" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector:Link3" to="5" xmlVersion="1.0"/>
+      </DataProcess>
+      <Events/>
+      <DynamicMapBrokers/>
+      <Configuration>
+         <checkInputFacet>false</checkInputFacet>
+         <stopOnFirstInputFacetCheckError>true</stopOnFirstInputFacetCheckError>
+         <checkInputCheckConstraints>false</checkInputCheckConstraints>
+         <stopOnFirstInputCheckConstraintsError>true</stopOnFirstInputCheckConstraintsError>
+         <checkOutputFacet>false</checkOutputFacet>
+         <stopOnFirstOutputFacetCheckError>true</stopOnFirstOutputFacetCheckError>
+         <checkOutputCheckConstraints>false</checkOutputCheckConstraints>
+         <stopOnFirstOutputCheckConstraintsError>true</stopOnFirstOutputCheckConstraintsError>
+         <continueMessageProcessingOnError>false</continueMessageProcessingOnError>
+         <groupAllResultingInstances>false</groupAllResultingInstances>
+         <keepExactValue>false</keepExactValue>
+         <copyAttributes>false</copyAttributes>
+      </Configuration>
+   </MapStage>
+</MapStages>

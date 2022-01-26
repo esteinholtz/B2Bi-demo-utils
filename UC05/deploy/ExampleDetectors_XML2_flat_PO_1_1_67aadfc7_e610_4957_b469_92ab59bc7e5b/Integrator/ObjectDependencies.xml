@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObjectDependencies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ObjectDependencies.xsd">
+   <RootObject fileName="BusinessDocument_1.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+   <RootObject fileName="BusinessDocument_2.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.XmlPurchaseOrder" type="BusinessDocument"/>
+   <RootObject fileName="MapBroker_1.xml" id="692b1231-dd68-4a89-9f66-c071ace9a1c4" lastModify="2022-01-20T20:47:25.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO_11" type="MapBroker">
+      <Object id="0522d4f5-4fe3-4527-86de-4245ec641306" lastModify="2022-01-20T20:47:25.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.XML2_flat_PO" type="MappingRule">
+         <Object fileName="BusinessDocument_1.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+         <Object fileName="BusinessDocument_2.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.XmlPurchaseOrder" type="BusinessDocument"/>
+      </Object>
+   </RootObject>
+   <RootObject fileName="MapStage_1.xml" id="92c39e69-ebbd-4614-9fb8-2bc994f28cef" lastModify="2022-01-20T20:47:25.000Z" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO_1" type="MapStage">
+      <Object fileName="BusinessDocument_1.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+      <Object fileName="BusinessDocument_2.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.XmlPurchaseOrder" type="BusinessDocument"/>
+      <Object fileName="MapBroker_1.xml" id="692b1231-dd68-4a89-9f66-c071ace9a1c4" lastModify="2022-01-20T20:47:25.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO_11" type="MapBroker">
+         <Object id="0522d4f5-4fe3-4527-86de-4245ec641306" lastModify="2022-01-20T20:47:25.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.XML2_flat_PO" type="MappingRule">
+            <Object fileName="BusinessDocument_1.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+            <Object fileName="BusinessDocument_2.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors.XmlPurchaseOrder" type="BusinessDocument"/>
+         </Object>
+      </Object>
+   </RootObject>
+</ObjectDependencies>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MapBrokers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MapBrokers_2.xsd">
+   <MapBroker dmlCompatibility="1.5" id="-501041624" label="" lastModified="2022-01-20T16:12:41.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.Main_Block1_INH_Detect" xmlVersion="1.0">
+      <DmlMapBroker>
+         <InputBusinessDocuments>
+            <InputBusinessDocument>
+               <BusinessDocument id="">
+                  <name>MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder</name>
+                  <lastModified>2022-01-20T20:45:38.000Z</lastModified>
+               </BusinessDocument>
+               <Alias>in1</Alias>
+            </InputBusinessDocument>
+         </InputBusinessDocuments>
+         <DecisionPath>
+            <StepStep>
+               <DmlExpression><![CDATA[setAttribute("B2BXInhouseDetector", "MessageFormat", "INHOUSE");
+setAttribute("B2BXInhouseDetector", "MessageFormatVersion", in1:\PO\Version);
+setAttribute("B2BXInhouseDetector", "MessageType", in1:\PO\DocType);
+setAttribute("B2BXInhouseDetector", "SenderId", in1:\PO\OrderFrom);
+setAttribute("B2BXInhouseDetector", "RecipientId", in1:\PO\OrderTo);
+setAttribute("B2BXInhouseDetector", "MessageId", in1:\PO\OrderId)
+  ]]></DmlExpression>
+            </StepStep>
+            <StepOutput>
+               <OutputName>out</OutputName>
+               <InputBusinessDocumentAlias>in1</InputBusinessDocumentAlias>
+            </StepOutput>
+         </DecisionPath>
+      </DmlMapBroker>
+   </MapBroker>
+</MapBrokers>

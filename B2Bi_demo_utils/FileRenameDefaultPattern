@@ -1,0 +1,1 @@
+[OFN("BASE")] & "_" & [DATE("%Y%m%d%H%M")] & "_" & [LOG_ID[6]] & ".inh"

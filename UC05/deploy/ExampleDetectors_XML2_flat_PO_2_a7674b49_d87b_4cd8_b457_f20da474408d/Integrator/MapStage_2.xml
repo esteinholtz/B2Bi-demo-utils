@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MapStages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MapStages_1.xsd">
+   <MapStage dmlCompatibility="1.5" id="87ad05ad-1317-4a2f-8fc0-0e9611ee26f5" label="" lastModified="2022-01-20T20:47:25.000Z" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO" xmlVersion="1.0">
+      <Input id="2848f1ce-459c-40ac-a433-0e7a68024b4c" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:input1" xmlVersion="1.1">
+         <Properties>
+            <Property name="split" type="String">
+               <SimpleValue>false</SimpleValue>
+            </Property>
+         </Properties>
+      </Input>
+      <Outputs>
+         <Output id="ef404a06-0eea-4b04-ac45-4f7c8f3abe67" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:out1" xmlVersion="1.1">
+            <Properties>
+               <Property name="group" type="String">
+                  <SimpleValue>false</SimpleValue>
+               </Property>
+            </Properties>
+         </Output>
+      </Outputs>
+      <DataProcess>
+         <Node id="1" label="" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument" x="450.0" xmlVersion="1.0" y="117.0">
+            <Object id="">
+               <name>MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.PurchaseOrder</name>
+               <lastModified>2022-01-20T20:47:25.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="2" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:out1" type="Output" x="577.0" xmlVersion="1.0" y="117.0">
+            <Object id="ef404a06-0eea-4b04-ac45-4f7c8f3abe67">
+               <name>MAPSERVICE.ExampleDetectors.XML2_flat_PO:out1</name>
+            </Object>
+         </Node>
+         <Node id="3" label="" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO1" type="MapBroker" x="288.0" xmlVersion="1.0" y="95.0">
+            <Object id="3fec6433-14a2-42ec-9b45-918066762ca0">
+               <name>MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO1</name>
+               <lastModified>2022-01-20T20:47:25.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="4" label="" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.XmlPurchaseOrder" type="BusinessDocument" x="144.0" xmlVersion="1.0" y="125.0">
+            <Object id="">
+               <name>MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.XmlPurchaseOrder</name>
+               <lastModified>2022-01-20T20:47:25.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="5" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:input1" type="Input" x="0.0" xmlVersion="1.0" y="125.0">
+            <Object id="2848f1ce-459c-40ac-a433-0e7a68024b4c">
+               <name>MAPSERVICE.ExampleDetectors.XML2_flat_PO:input1</name>
+            </Object>
+         </Node>
+         <Node id="6" label="" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO2" type="MapBroker" x="127.0" xmlVersion="1.0" y="3.0">
+            <Object id="64657ad8-7125-4479-b848-6dd9993c4e9a">
+               <name>MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO2</name>
+               <lastModified>2022-01-20T20:47:25.000Z</lastModified>
+            </Object>
+         </Node>
+         <Node id="7" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:MapErrorTrigger" type="Event" x="0.0" xmlVersion="1.0" y="30.0">
+            <Object id="d2baad07-d62d-458f-b7cd-7f414d6510b1">
+               <name>MAPSERVICE.ExampleDetectors.XML2_flat_PO:MapErrorTrigger</name>
+               <lastModified>2022-01-20T15:51:15.000Z</lastModified>
+            </Object>
+         </Node>
+         <Link from="3" id="8" label="" mapBrokerOutput="out" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:out" to="1" xmlVersion="1.0">
+            <Object id="87ebc413-5eb8-4686-8352-d93aa10517c0">
+               <name>MAPSERVICE.ExampleDetectors.XML2_flat_PO:out</name>
+            </Object>
+         </Link>
+         <Link from="1" id="9" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:link2" to="2" xmlVersion="1.0"/>
+         <Link from="4" id="10" label="" name="in" to="3" xmlVersion="1.0">
+            <Object id="130e49f9-e127-4950-918b-d71e518fca0b">
+               <name>MAPSERVICE.ExampleDetectors.XML2_flat_PO:in</name>
+            </Object>
+         </Link>
+         <Link from="5" id="11" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:link1" to="4" xmlVersion="1.0"/>
+         <Link from="7" id="12" label="" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO:mapErrLink" to="6" xmlVersion="1.0">
+            <Object id="c6f02eee-cbf8-48f6-82cf-f347e081106a">
+               <name>MAPSERVICE.ExampleDetectors.XML2_flat_PO:mapErrLink</name>
+            </Object>
+         </Link>
+      </DataProcess>
+      <Events>
+         <Event id="d2baad07-d62d-458f-b7cd-7f414d6510b1" label="" lastModified="2022-01-20T15:51:15.000Z" level="error" name="MAPSERVICE.ExampleDetectors.XML2_flat_PO" xmlVersion="1.0"/>
+      </Events>
+      <DynamicMapBrokers/>
+      <Configuration>
+         <checkInputFacet>true</checkInputFacet>
+         <stopOnFirstInputFacetCheckError>true</stopOnFirstInputFacetCheckError>
+         <checkInputCheckConstraints>false</checkInputCheckConstraints>
+         <stopOnFirstInputCheckConstraintsError>true</stopOnFirstInputCheckConstraintsError>
+         <checkOutputFacet>false</checkOutputFacet>
+         <stopOnFirstOutputFacetCheckError>true</stopOnFirstOutputFacetCheckError>
+         <checkOutputCheckConstraints>false</checkOutputCheckConstraints>
+         <stopOnFirstOutputCheckConstraintsError>true</stopOnFirstOutputCheckConstraintsError>
+         <continueMessageProcessingOnError>false</continueMessageProcessingOnError>
+         <groupAllResultingInstances>false</groupAllResultingInstances>
+         <keepExactValue>false</keepExactValue>
+         <copyAttributes>true</copyAttributes>
+      </Configuration>
+   </MapStage>
+</MapStages>

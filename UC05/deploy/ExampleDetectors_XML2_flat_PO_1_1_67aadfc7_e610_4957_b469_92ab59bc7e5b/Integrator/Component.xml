@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Integrator" version="3.7.0" xsi:noNamespaceSchemaLocation="Component.xsd">
+   <Object date="2022-01-20T20:45:38.000Z" name="PurchaseOrder" oid="" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711537727" type="BusinessDocument" user=""/>
+   <Object date="2022-01-20T20:45:38.000Z" name="XmlPurchaseOrder" oid="" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711537727" type="BusinessDocument" user=""/>
+   <Object date="2022-01-20T20:47:25.000Z" name="Main_Block_XML2_flat_PO_11" oid="692b1231-dd68-4a89-9f66-c071ace9a1c4" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO_1::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645364" type="MapBroker" user=""/>
+   <Object date="2022-01-20T20:47:25.000Z" name="XML2_flat_PO_1" oid="92c39e69-ebbd-4614-9fb8-2bc994f28cef" path="MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645364" type="MapStage" user=""/>
+</Component>

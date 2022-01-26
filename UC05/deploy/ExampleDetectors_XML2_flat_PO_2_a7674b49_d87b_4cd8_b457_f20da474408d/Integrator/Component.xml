@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Integrator" version="3.7.0" xsi:noNamespaceSchemaLocation="Component.xsd">
+   <Object date="2022-01-20T20:47:25.000Z" name="PurchaseOrder" oid="" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645252" type="BusinessDocument" user=""/>
+   <Object date="2022-01-20T20:47:25.000Z" name="XmlPurchaseOrder" oid="" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645252" type="BusinessDocument" user=""/>
+   <Object date="2022-01-20T20:47:25.000Z" name="Main_Block_XML2_flat_PO1" oid="3fec6433-14a2-42ec-9b45-918066762ca0" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645252" type="MapBroker" user=""/>
+   <Object date="2022-01-20T20:47:25.000Z" name="Main_Block_XML2_flat_PO2" oid="64657ad8-7125-4479-b848-6dd9993c4e9a" path="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645252" type="MapBroker" user=""/>
+   <Object date="2022-01-20T20:47:25.000Z" name="XML2_flat_PO" oid="87ad05ad-1317-4a2f-8fc0-0e9611ee26f5" path="MAPSERVICE.ExampleDetectors" shortDesccription="" timestamp="1642711645252" type="MapStage" user=""/>
+</Component>

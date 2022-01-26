@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="a7674b49-d87b-4cd8-b457-f20da474408d" name="ExampleDetectors_XML2_flat_PO" version="2" xsi:noNamespaceSchemaLocation="Container.xsd">
+   <longDescription/>
+   <generatedBy/>
+   <generationDate>2022-01-20T20:47:25.000Z</generationDate>
+   <shortDescription/>
+   <Contents>
+      <Product name="Integrator" version="3.7.0"/>
+      <Product name="MapDesigner" version="2.5.0"/>
+   </Contents>
+</Container>

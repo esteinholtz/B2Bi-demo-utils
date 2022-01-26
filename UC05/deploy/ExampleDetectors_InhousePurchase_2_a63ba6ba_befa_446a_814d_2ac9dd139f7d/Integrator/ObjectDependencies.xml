@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObjectDependencies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ObjectDependencies.xsd">
+   <RootObject fileName="BusinessDocument_5.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+   <RootObject fileName="MapBroker_4.xml" id="-501041624" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.Main_Block1_INH_Detect" type="MapBroker">
+      <Object fileName="BusinessDocument_5.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+   </RootObject>
+   <RootObject fileName="MapStage_3.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE.ExampleDetectors.InhousePurchaseOrderDetector" type="MapStage">
+      <Object fileName="BusinessDocument_5.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+      <Object fileName="MapBroker_4.xml" id="-501041624" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.Main_Block1_INH_Detect" type="MapBroker">
+         <Object fileName="BusinessDocument_5.xml" id="" lastModify="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" type="BusinessDocument"/>
+      </Object>
+   </RootObject>
+</ObjectDependencies>

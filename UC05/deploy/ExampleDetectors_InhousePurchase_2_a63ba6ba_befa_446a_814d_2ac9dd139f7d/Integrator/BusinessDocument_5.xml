@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BusinessDocuments xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BusinessDocuments.xsd">
+   <BusinessDocument businessDocumentType="Inhouse" dmlCompatibility="1.5" encoding="iso8859" id="" label="" lastModified="2022-01-20T20:45:38.000Z" name="MAPSERVICE_ExampleDetectors_InhousePurchaseOrderDetector::MAPSERVICE.ExampleDetectors.PurchaseOrder" xmlVersion="1.0">
+      <Configuration>
+         <decimalSeparator>false</decimalSeparator>
+         <keepPresenceOfPlusSign>false</keepPresenceOfPlusSign>
+         <keepPresenceOfDecimalSeparator>false</keepPresenceOfDecimalSeparator>
+         <keepInputNumberOfFractionDigits>false</keepInputNumberOfFractionDigits>
+         <keepInputNumberOfDateDigits>false</keepInputNumberOfDateDigits>
+         <keepPresenceOfIntegerPlusSign>false</keepPresenceOfIntegerPlusSign>
+      </Configuration>
+      <Properties>
+         <Property name="enableFixedFieldTruncation" value="false"/>
+         <Property name="realFormatBehavior" value="false"/>
+         <Property name="truncate" value="false"/>
+         <Property name="trim" value="none"/>
+         <Property name="decimalChar"/>
+         <Property name="escapeChar"/>
+         <Property name="closeQuote"/>
+         <Property name="openQuote"/>
+         <Property name="leafElmtDelimiterValue"/>
+         <Property name="leafElmtDelimiterType" value="FIXED"/>
+         <Property name="parentElmtDelimiterValue"/>
+         <Property name="parentElmtDelimiterType" value="FIXED"/>
+      </Properties>
+      <Elements>
+         <ParentElement cargoImpEndSepMandatory="false" cargoImpPreSepMandatory="false" delimiterType="implicit" delimiterValue="" elementType="InhouseParent" label="" maxCard="1" minCard="1" name="PO" order="1" swiftErrorCode="" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+            <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="PO" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLandmark" label="PO" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="PO" order="2" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                  <Enumerations/>
+               </Facet>
+            </LeafElement>
+            <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="DocType" order="3" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                  <Enumerations/>
+               </Facet>
+            </LeafElement>
+            <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="Version" order="4" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                  <Enumerations/>
+               </Facet>
+            </LeafElement>
+            <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="OrderId" order="5" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                  <Enumerations/>
+               </Facet>
+            </LeafElement>
+            <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="OrderFrom" order="6" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                  <Enumerations/>
+               </Facet>
+            </LeafElement>
+            <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue="0x0a" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="OrderTo" order="7" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                  <Enumerations/>
+               </Facet>
+            </LeafElement>
+            <ParentElement cargoImpEndSepMandatory="false" cargoImpPreSepMandatory="false" delimiterType="string" delimiterValue="0x0a" elementType="InhouseParent" label="" maxCard="0" minCard="1" name="LINE" order="8" swiftErrorCode="" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+               <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="PONum" order="9" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+                  <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                     <Enumerations/>
+                  </Facet>
+               </LeafElement>
+               <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="PODate" order="10" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+                  <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                     <Enumerations/>
+                  </Facet>
+               </LeafElement>
+               <LeafElement cargoImpPreSepMandatory="false" cargoImpReference="" defaultValue="" definition="255" definitionType="Length" delimiterType="string" delimiterValue=":" dmlClassName="String" elementType="InhouseLeaf" label="" leafElementPhysicalType="string (len)" maxCard="1" minCard="1" name="POItem" order="11" xmlNamespace="-1" xmlNamespaceParentOrder="-1">
+                  <Facet allowDistortion="true" alternativeDelimiterValue="" cargoImpPattern="" closeQuote="" cobolDependingOn="-1" cobolDependingOnParentOrder="-1" decimalChar="" decimalSeparator="false" encoding="iso8859" escapeChar="" exponentialChar="" keepInputNumberOfDateDigits="false" keepInputNumberOfFractionDigits="false" keepPresenceOfDecimalSeparator="false" keepPresenceOfPlusSign="false" maxInclusiveValue="false" maxValue="" minInclusiveValue="false" minValue="" nullable="false" openQuote="" paddingChar=" " paddingPos="1" pattern="" signMinusChar="" signMinusPos="0" signPlusChar="" signPlusPos="0" validCharset="">
+                     <Enumerations/>
+                  </Facet>
+               </LeafElement>
+               <Facet alternativeDelimiterValue=""/>
+            </ParentElement>
+            <Facet alternativeDelimiterValue=""/>
+         </ParentElement>
+      </Elements>
+      <CheckConstraints/>
+   </BusinessDocument>
+</BusinessDocuments>

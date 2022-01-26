@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MapBrokers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MapBrokers_2.xsd">
+   <MapBroker dmlCompatibility="1.5" id="64657ad8-7125-4479-b848-6dd9993c4e9a" label="" lastModified="2022-01-20T15:51:15.000Z" name="MAPSERVICE_ExampleDetectors_XML2_flat_PO::MAPSERVICE.ExampleDetectors.Main_Block_XML2_flat_PO2" xmlVersion="1.0">
+      <DmlMapBroker>
+         <InputBusinessDocuments/>
+         <DecisionPath>
+            <StepStep>
+               <DmlExpression><![CDATA[setAttribute("B2BXMapError",getTraces())]]></DmlExpression>
+            </StepStep>
+         </DecisionPath>
+      </DmlMapBroker>
+   </MapBroker>
+</MapBrokers>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrder>
+	<DocType>ORDERS</DocType>	
+	<DocVersion>XMLExample</DocVersion>
+	<DocId>DWX6578</DocId>
+	<OrderFrom>YCompany</OrderFrom>
+	<OrderTo>XCompany</OrderTo>
+	<LINE>
+		<OrderDate>20090301</OrderDate>
+		<OrderNum>8374656</OrderNum>
+		<OrderItem>BC-BDT LGS 45</OrderItem>
+	</LINE>
+	<LINE>
+		<OrderDate>20090302</OrderDate>
+		<OrderNum>1447844</OrderNum>
+		<OrderItem>BC-LS 760</OrderItem>
+	</LINE>
+	<LINE>
+		<OrderDate>20090321</OrderDate>
+		<OrderNum>798567</OrderNum>
+		<OrderItem>BC-K 554</OrderItem>
+	</LINE>
+	<LINE>
+		<OrderDate>20090324</OrderDate>
+		<OrderNum>53438673</OrderNum>
+		<OrderItem>BC-WW RX 547</OrderItem>
+	</LINE>
+	<LINE>
+		<OrderDate>20090326</OrderDate>
+		<OrderNum>346353</OrderNum>
+		<OrderItem>BC-TW 647</OrderItem>
+	</LINE>
+</PurchaseOrder>

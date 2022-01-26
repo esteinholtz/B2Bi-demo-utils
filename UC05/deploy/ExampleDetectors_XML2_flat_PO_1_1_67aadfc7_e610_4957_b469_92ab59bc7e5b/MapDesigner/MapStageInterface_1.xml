@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MapStageInterface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mapName="MAPSERVICE.ExampleDetectors.XML2_flat_PO_1" xsi:noNamespaceSchemaLocation="MapStageInterface.xsd">
+   <Input description="" id="1c7649fe-7dd0-4365-ad08-446fd42d88fb" name="input1"/>
+   <Outputs>
+      <Output description="" id="268d7fc6-ec52-4069-a097-76429fc0174e" name="out1"/>
+   </Outputs>
+   <Channels/>
+</MapStageInterface>
